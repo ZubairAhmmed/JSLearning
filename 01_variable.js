@@ -29,3 +29,7 @@ console.log(typeof city);
 city = 50000;
 
 console.log(typeof city);
+
+var salary = null
+console.log(salary);
+console.log(typeof salary)
