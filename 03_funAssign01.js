@@ -37,3 +37,13 @@ var res = addThreeValue(10.23, 2600, 40);
 console.log('Result is ', res);
 var res = addThreeValue('Hello','Good','Morning');
 console.log('Result is ', res);
+console.log('-----------------step-4-----------------------------------------------');
+function bankDetails(bankName,accountNum,location,pinCode){
+    console.log('Bank Name-', bankName);
+    console.log('Account Number-', accountNum);
+    console.log('Location-', location);
+    console.log('Pin Code-', pinCode);
+}
+bankDetails('CITI Bank',3456782345,'Pune',431202)
+bankDetails('Axis Bank',785672345,'Mumbai',441202)
+bankDetails('HDFC Bank',8956782345,'Pune',631202,'opens')
