@@ -18,7 +18,8 @@ function stringHandsOn() {
     console.log(`start charecter is ${result},and charecter is ${trimedStr.charAt(33)}`);
     console.log(`===========================STEP-6==========================`);
     var wordAvailble = trimedStr.split(' ');
-    console.log(`The words are: ${wordAvailble}`);
+    console.log(`The words are: ${wordAvailble}:and  no. of words are ${wordAvailble.length}`);
+
     console.log(`===========================STEP-7==========================`);
     var wordGood = str.slice(23,27);
     console.log(`Print the word from given string is: ${wordGood}`);
