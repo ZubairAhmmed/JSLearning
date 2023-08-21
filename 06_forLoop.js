@@ -1,37 +1,20 @@
 var num = 10;
-
 var num2 = num++; // num2 = num + 1
-
 console.log(`Value of num : ${num}`);
-
 console.log(`Value of num2 : ${num2}`);
-
-var num4 = 10;
-
+var num4 = 7;
 var num5 = ++num4; // num4 = num4 + 1
-
-console.log(`Value of num : ${num4}`);
-
-console.log(`Value of num2 : ${num5}`);
-
+console.log(`Value of num4 : ${num4}`);
+console.log(`Value of num5 : ${num5}`);
 var num6 = 5;
-
 var num7 = --num6; // num7 = num6 - 1
-
 console.log(`Value of num6 : ${num6}`);
-
 console.log(`Value of num7 : ${num7}`);
-
 console.log(`================================`);
-
 // WAP to print numbers from 0 to 10
-
 // start index = 2
-
 // condition: <= 10
-
 // increment = 1
-
 for (let index = 0; index <= 10; index++) {
   console.log(index);
 }
