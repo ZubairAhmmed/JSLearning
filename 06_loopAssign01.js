@@ -24,7 +24,7 @@ function sumOfCube() {
          sum = sum + index * index * index;
         
     }    
-    console.log(`The total sum of cub is : ${sum}`);
+    console.log(`The total sum of cube is : ${sum}`);
 }
 sumOfCube();
 
@@ -38,6 +38,7 @@ function oddPositionChars(str) {
         }
         
     }
-    
+    console.log(`-----------`);
 }
 oddPositionChars("Hard work always pay back");
+oddPositionChars("Soon I will be Angular IT Champ");
